@@ -23,5 +23,7 @@ public class HomeController extends Controller {
     public Result about() {
         return ok(about.render());
     }
-
+    public Result books() {
+        return ok(books.render());
+    }
 }
